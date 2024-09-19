@@ -1,0 +1,1359 @@
+img
+{
+    width: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p-70{
+    padding: 70px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+li
+{
+    list-style: none;
+}
+
+
+
+
+/* Start Section One  */
+
+ .bg-sec .icon
+ {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgba(102, 102, 240, 0.966);
+    color:white;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+
+ }
+
+
+.bg-sec
+{
+    height: 100vh;
+    background-image: url('../img/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.nav{
+    position: fixed;
+    background-color: rgba(102, 102, 240, 0.966);
+
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.nav-item{
+    text-decoration: none;
+    transition: all .3s;
+    transition-delay: .000001s;
+
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color:white;
+    
+}
+
+
+.overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(102, 102, 240, 0.966);
+    z-index: -1;
+}
+    
+/*  */
+.bg-sec .text-div h1{
+    font-size: 50px;
+    padding: 0px 5px;
+    font-weight: 900;
+}
+
+.bg-sec .text-div h2{
+    font-size: 18px;
+    color:#d8d5d5cc;
+}
+
+.bg-sec .text-div .btn{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    border: 2px white solid;
+    padding: 8px 30px;
+    margin-top: 25px;
+    transition: all 0.3s;
+
+}
+
+.bg-sec .text-div .btn:hover{
+    color: rgb(119, 22, 209) !important ;
+    background-color: white;
+}
+
+
+.bg-sec .container .img-div
+{
+     animation: photo1 2.5s infinite alternate;
+
+}
+
+
+@keyframes photo1 {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+
+  @media (max-width : 768px)
+  {
+    .bg-sec .text-div h1 {
+        margin-top: 55px;
+
+  }
+    .bg-div
+    {
+        padding: 25px;
+    }
+
+    .bg-sec .container .text-div{
+        text-align: center;
+    }
+  }
+  @media (max-width: 600px)
+  {
+    .bg-div
+    {
+        padding: 25px;
+    }
+    .bg-sec .text-div h1 {
+        margin-top: 50px;
+        font-size: 39px;
+        font-weight: 700;
+    }
+    .bg-sec .text-div h2 {
+        font-size: 16px;
+        padding: 0px 26px;
+    }
+    .bg-sec .text-div .btn {
+        padding: 5px 15px;
+        margin-top: 15px;
+    }
+    .bg-sec .container .img-div
+    {
+        margin: 0px;
+        padding: 50px;
+    }
+
+  }
+/*End Section One  */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+
+/* start Voluptatem Section */
+
+
+.container .row .Voluptatem-text h3
+{
+font-size: 32px;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+color: #2c4964;
+margin-bottom: 8px;
+}
+
+.container .row .Voluptatem-text p{
+ font-size: 16px;
+ font-family: "Open Sans", sans-serif;
+ font-weight: 400 ;
+ font-style: italic;
+
+color: #313131;
+margin-bottom:16px;
+
+}
+
+.container .row .Voluptatem-text li
+{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 ;   
+   color: #313131;
+padding-bottom: 10px;
+line-height: 1.5;
+}
+
+.container .row .Voluptatem-text .icon0
+{
+    border: 1px rgb(74, 74, 141) solid;
+    
+    border-radius: 100%;
+    padding: 3px;
+    color: rgb(74, 74, 141);
+    margin-right: 15px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.container .row .Voluptatem-text .btn{
+    background: #5846f9;
+    color: #ffffff;
+    font-size: larger;
+    padding: 9px 30px;
+    cursor: pointer;
+
+}
+@media (max-width : 600px)
+{
+    .container .row .Voluptatem-text h3
+{
+font-size: 28px;
+}
+
+.container .row .Voluptatem-text .btn{
+    font-size: 17px;
+    padding: 5px 15px;
+}
+
+}
+
+
+
+/* End Voluptatem Section */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+
+
+/* Start counter Section */
+
+.counter 
+{
+    height: 32vh;
+    background-image: url('../img/counts-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.counter .container .row .count-text
+{
+    margin-top: 60px;
+}
+
+.counter .container .row .count-text .count-span
+{
+    color: #ffffff;
+    font-size: 48px;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+    
+
+}
+.counter .container .row .count-text .count-par
+{
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 ;   
+   color:#ffffffcc;
+   margin-bottom: 0px;
+}
+@media (max-width : 768px)
+{
+    .counter .container .row .count-text
+{
+    margin-top: 50px;
+}
+
+
+}
+
+@media (max-width : 600px)
+{
+    .counter .container .row .count-text
+    {
+        width: 50%;
+        margin-top: 40px;
+    }
+
+}
+
+/* End counter Section */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+
+/* Start Services Section */
+.servicse 
+{
+    background-color: rgba(148, 145, 145, 0.11)!important; 
+}
+
+
+
+.servicse .container .servicse-text .servicse-h2
+{
+
+    color: #444444;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 2px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.servicse .container .servicse-text .servicse-h2::after
+{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 47%;
+    width: 51px;
+    height: 3px;
+    background-color:#5846f9;
+   
+}
+
+.servicse .container .servicse-text .servicse-par
+{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 ; 
+    text-align: center;  
+   color:#444444;
+
+}
+.services-parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.servicse .container .services-parent .services-divs 
+{
+    width: 31%;
+    background-color: white;
+    text-align: center;
+    padding: 70px 50px 80px;
+    transition: all .3s ;
+    margin: 15px 0px;
+}
+.servicse .container .services-parent .services-divs:hover
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+
+}
+.servicse .container .services-parent .services-divs h4{
+    color: #2c4964;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight:700;
+}
+.servicse .container .services-parent .services-divs p{
+    color: #444444;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300 ; 
+}
+
+
+.icon-container {
+    position: relative;
+  }
+
+
+
+.servicse .container .services-parent .services-divs  .basketball-icon{
+    color: #47aeff;
+    transition: all .3s;
+}
+
+.servicse .container .services-parent .services-divs:hover .basketball-icon{
+    color: white;
+}
+
+
+
+
+.servicse .container .services-parent .services-divs  .file-icon{
+    color:#ffa76e;    
+    transition: all .3s;
+}
+
+
+.servicse .container .services-parent .services-divs:hover .file-icon{
+    color: white;
+}
+
+
+.servicse .container .services-parent .services-divs  .speed-icon{
+    color: #e80368;   
+    transition: all .3s;
+}
+
+.servicse .container .services-parent .services-divs:hover .speed-icon{
+    color: white;
+}
+
+.servicse .container .services-parent .services-divs  .layer-icon{
+    color: #ffbb2c;
+        transition: all .3s;
+}
+
+.servicse .container .services-parent .services-divs:hover .layer-icon{
+    color: white;
+}
+
+.servicse .container .services-parent .services-divs  .slide-icon{
+    color: #ff5828;
+        transition: all .3s;
+}
+
+.servicse .container .services-parent .services-divs:hover .slide-icon{
+    color: white;
+}
+
+.servicse .container .services-parent .services-divs  .arch-icon{
+    color: #11dbcf;        
+    transition: all .3s;
+}
+
+.servicse .container .services-parent .services-divs:hover .arch-icon{
+    color: white;
+}
+
+
+.servicse .container .services-parent .services-divs .icon-container svg path
+{
+ transition: all .3s;
+ transition-delay: 0.11111s;
+}
+
+
+.servicse .container .services-parent .services-divs:hover  .icon-basket path
+{
+    fill: #47aeff;
+}
+
+
+.servicse .container .services-parent .services-divs:hover  .icon-file path
+{
+    fill:#ffa76e;
+}
+.servicse .container .services-parent .services-divs:hover  .icon-speed path
+{
+    fill:#e80368;
+}
+.servicse .container .services-parent .services-divs:hover  .icon-layer path
+{
+    fill:#ffbb2c;
+}
+.servicse .container .services-parent .services-divs:hover  .icon-slide path
+{
+    fill: #ff5828;
+}
+.servicse .container .services-parent .services-divs:hover  .icon-arch path
+{
+    fill:  #11dbcf;
+}
+
+
+
+@media (max-width : 768px)
+{
+    .servicse .container .servicse-text .servicse-h2::after
+    {
+        left: 46%;
+    }
+
+    .servicse .container .services-parent .services-divs{
+        width: 48%;
+        margin: 6px;
+    } 
+
+
+}
+
+
+@media (max-width : 600px)
+{
+    .servicse .container .services-parent .services-divs {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .servicse .container .servicse-text .servicse-h2::after
+    {
+        left: 43%;
+    }
+
+}
+
+
+
+
+/* End Servicess Section */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+
+
+
+/* Start Precing Section  */
+.Pricing 
+{
+    background-color: rgba(148, 145, 145, 0.11)!important; 
+}
+
+
+
+.Pricing .container .Pricing-text .Pricing-h2
+{
+
+    color: #444444;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 2px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.Pricing .container .Pricing-text .Pricing-h2::after
+{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 47%;
+    width: 51px;
+    height: 3px;
+    background-color:#5846f9;
+   
+}
+
+
+
+.Pricing .container .Pricing-text .Pricing-par
+{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400 ; 
+    text-align: center;  
+   color:#444444;
+   margin-top: 15px;
+
+}
+
+.Pricing-parent
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.Pricing .container .Pricing-parent .Pricing-divs 
+{
+    width: 23%;
+    background-color: white;
+    text-align: center;
+    transition: all .3s ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.274); 
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 70px;
+
+
+}
+
+
+.Pricing .container .Pricing-parent .Pricing-divs h3
+{
+    color: #2c4964;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    background-color: #f8f8f8;
+    padding: 20px 15px;
+
+}
+.Pricing .container .Pricing-parent .Pricing-divs .Business-h3
+{
+    background: #5846f9;
+    color: white;
+}
+
+.Pricing .container .Pricing-parent .Pricing-divs .Advanced
+{
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #5846f9;
+    color: #fff;
+}
+
+
+.Pricing .container .Pricing-parent .Pricing-divs h4 {
+    font-size: 36px;
+    color: #5846f9;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.Pricing .container .Pricing-parent .Pricing-divs .Pricing-sup  {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+.Pricing .container .Pricing-parent .Pricing-divs .Pricing-span  {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+.Pricing .container .Pricing-parent .Pricing-divs li
+{
+    color: #444444;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 16px;
+    margin-right: 20px;
+
+    
+}
+.Pricing .container .Pricing-parent .Pricing-divs .line-in
+{
+    color: #cccccc;
+}
+.Pricing .container .Pricing-parent .Pricing-divs .Btn  {
+    background-color: #f8f8f8;
+}
+
+.Pricing .container .Pricing-parent .Pricing-divs .btn{
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    background: #5846f9;
+    cursor: pointer;
+    margin: 10px 0px;
+
+    
+}
+@media (max-width : 768px)
+{
+    .Pricing .container .Pricing-text .Pricing-h2::after
+{
+    left: 46%;
+
+}
+
+.Pricing .container .Pricing-parent .Pricing-divs 
+{
+    width: 48%;
+    margin:15px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12); 
+
+
+}
+
+}
+
+@media (max-width : 600px)
+{
+    .Pricing .container .Pricing-parent .Pricing-divs {
+        width: 99%;
+        margin: 15px 2px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.175); 
+
+    }
+
+    .Pricing .container .Pricing-text .Pricing-h2::after
+{
+
+    left: 43%;
+   
+   
+}
+}
+
+/* End Pricing Section */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+
+/* Strat FREQUENTLY Section  */
+
+.FREQUENTLY
+{
+    background-color: #5846f9;
+}
+.FREQUENTLY .container .FREQUENTLY-text h2{
+    color: #ffffff;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    margin: 0px 0px 20px;
+    padding:0px 0px 20px ;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.FREQUENTLY .container .FREQUENTLY-text h2::after{
+    content: "";
+    position: absolute;
+    top: 50px;
+    left: 48%;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff99;
+    text-align: center;
+   
+}
+.FREQUENTLY .container .FREQUENTLY-text p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+
+
+
+}
+
+@media (max-width : 768px)
+{
+    .FREQUENTLY .container .FREQUENTLY-text h2::after{
+        
+        left: 45%;
+    }
+}
+@media (max-width : 600px)
+{
+    .FREQUENTLY .container .FREQUENTLY-text h2::after{
+        content: "";
+        position: absolute;
+        top: 94px;
+        left: 162px;
+       
+        width: 60px;
+        height: 3px;
+       
+       
+    }
+     
+}
+
+
+/* End FREQUENTLY  Section */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+/* Start Contact Section */
+.contact{
+    background-color: rgba(148, 145, 145, 0.11)!important; 
+
+}
+.contact .container .contact-text 
+{
+    margin-bottom: 50px;
+}
+
+.contact .container .contact-text h2
+{
+    color: #444444;
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    margin: 0px 0px 20px;
+    padding:0px 0px 20px ;
+    text-align: center;
+    position: relative;
+
+}
+
+.contact .container .contact-text h2::after
+{
+     content: "";
+    position: absolute;
+    top: 50px;
+    left: 48%;
+    width: 60px;
+    height: 3px;
+    background-color:#5846f9;
+    text-align: center;
+   
+}
+
+.contact .container .contact-text p{
+    color: #444444;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    
+
+}
+
+.contact .container .contact-div
+{
+text-align: center;
+background-color: white;
+padding: 20px 0px;
+justify-content: space-between;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.074); 
+
+
+}
+
+.contact .container .Address{
+    margin-right: 20px;
+}
+.contact .container .Call{
+    margin-left: 20px;
+
+}
+.contact .container .contact-div span i
+{
+color:#5846f9 ;
+font-size: 30px;
+padding: 3px;
+}
+
+.contact .container .contact-div h3{
+    font-size: 20px;
+    color: #2c4964;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin: 10px 0;
+
+}
+.contact .container .contact-div p{
+    color: #444444;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+
+}
+
+.contact .container .contact-map {
+margin-top: 25px;
+    padding: 0px;
+    margin-right: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.074); 
+    box-sizing: border-box;
+    
+}
+
+
+
+.contact .container .form
+{
+    margin-top: 25px;
+    width: 600px;
+    box-sizing: border-box;
+}
+
+
+.contact .container .form .contact-label
+{
+    padding: 10px 25px;
+}
+
+.contact .container .form .name-email-par
+{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.contact .container .form .name
+{
+    width: 50%;
+    padding-right: 10px;
+    
+}
+
+.contact .container .form .email
+{
+    width: 50%;
+    padding-left: 10px;
+    
+}
+
+.contact .container .form .btn
+{
+    background-color:#5846f9;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: all .3s;
+}
+
+.contact .container .form .btn:hover
+{
+    background-color: #5730d6de;
+
+}
+
+
+
+
+
+
+
+
+@media (max-width : 768px)
+{
+
+    .contact .container .contact-text h2::after
+    {
+        left: 45%;
+
+    }
+    .contact .container .Address
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .contact .container .Email
+    {
+    margin: 0px;
+    margin-right: 10px;
+    width: 48%;
+    
+    
+    }
+    
+
+    .contact .container .Call
+    {
+        width: 48%;
+       margin: 0px;
+       margin-left: 15px;
+      
+    } 
+    .contact .container .contact-map .map-frame {
+        width: 100%
+    }
+
+    .contact .container .form
+{
+    width: 100%;
+}
+   
+   
+
+     
+}
+@media (max-width : 600px)
+{
+    .contact .container .contact-text h2::after
+    {
+        left: 42%;
+
+    }
+
+    .contact .container .contact-div
+    {
+        width: 100%;
+        margin: 10px 0px;
+    }  
+
+    .contact .container .contact-map .map-frame {
+        width: 100% ;
+        padding: 0px 18px;
+        box-shadow: none;
+    }
+
+    .contact .container .form
+    {
+margin-top: 15px;
+padding: 20px 18px;
+box-shadow: none;
+width: 95%;
+margin-left: 10px;
+
+
+    }
+
+    .contact .container .form .name
+    { 
+width: 100%;
+margin: 0px;
+padding: 10px 25px ;
+
+    }
+    .contact .container .form .email
+    { 
+width: 100%;
+margin: 0px;
+padding: 10px 25px;
+
+    }
+
+    .contact .container .form .btn
+{
+margin-top: 20px;
+
+}
+}
+
+
+
+/* End Contact  Section */
+/* **************************************************************** */
+/* **************************************************************** */
+/* **************************************************************** */
+
+
+/* start footer  */
+.footer
+{
+    background-color: #604ff4;
+    position: relative;
+}
+
+
+.footer .container .row .footer-text h3{
+    font-size: 28px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin: 0px 0px 30px;
+    padding: 2px 0px;
+}
+
+.footer .container .row .footer-text p{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+    /*  */
+}
+
+.footer .container .row .footer-list p{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.8;
+    /*  */
+}
+
+.footer .container .row .footer-list h4{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 650;
+    margin: 0px 0px 8px;
+    padding: 0px 0px 12px;
+    letter-spacing: .8px;
+}
+
+
+ol, ul {
+    padding-left: 0rem;
+}
+.footer .container .row .footer-list li{
+    line-height: 2.8;
+    font-size: 14px;
+    color: #ffffffcc;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.footer .container .row .news
+{
+    /* margin-left: 80px; */
+    position: absolute;
+    right: 70px;
+}
+
+
+.footer .container .row .footer-list .col-auto{
+    display: flex;
+}
+
+.footer .container .row .footer-list .col-auto .form-control
+{
+    height:40px ;
+    border-radius: 0px;
+    border-radius: 8px 0% 0% 8px;
+}
+.footer .container .row .footer-list .col-auto .btn
+{
+    border-radius: 10px;
+    height:40px ;
+    padding: 5px 25px;
+    color: #ffffff;
+    background-color: #8d68f5da;
+transition: all .3s;
+border-radius: 0px;
+border-radius: 0px 8px 8px 0px;
+    
+
+}
+
+.footer .container .row .footer-list .col-auto .btn:hover
+{
+    background-color: #4002ea;
+}
+
+
+
+
+.footer .container .row .footer-list .footer-icon
+{
+    margin: 0px 10px 0px 0px;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+
+.footer .container .row .copyright
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .8px;
+
+    
+
+}
+
+.footer .container .row .credits
+{
+    color: #ffffff;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .8px;
+    padding: 8px 0px 0px ;
+
+    
+
+}
+
+.footer .container .row .credits a
+{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.footer-down .social-link
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative;
+    right: 0; */
+}
+
+.footer-down
+{
+display: flex; 
+justify-content: space-between;   
+    /* flex-wrap: wrap; */
+}
+.footer-down .social-link .social-icon
+{
+   
+    width: 35px;
+    height: 35px;
+    background-color: #6635edc7;
+    /* background-color: ; */
+
+    text-align: center;
+    border-radius: 150%;
+    margin: 0px 7px;
+    padding:  5px;
+    transition: all .3s;
+}
+.footer-down .social-link .social-icon:hover
+{
+background-color: #6846c5e5;
+
+}
+
+.footer-down .social-link  
+{
+    /* margin-left: 150px; */
+width: 22%;
+}
+.footer-down .social-link  .icon
+{
+color: #ffffff;
+font-size: 15px;
+text-align: center;
+}
+
+
+@media (max-width : 768px)
+{
+
+     .footer .container .row .footer-text
+    {
+        /* margin-bottom: 20px; */
+        padding-right: 35px;
+    }
+
+    .footer .container .row .footer-text .p-up
+    {
+        padding-right: 100px;
+    }
+
+    .footer .container .row .useful
+    {
+        margin-bottom:20px ;
+    }
+
+   .footer .container .news{
+    position: absolute ;
+    bottom:280px;
+   }
+
+   .footer .container .news .row2 .form-control{
+
+    width: 67%;
+    
+   }
+
+   .footer .container .news .row2 .btn{
+
+    width: 38%;
+    border: 1px solid #ffffff7b ;
+
+
+    
+    
+    
+   }
+
+
+
+   .footer-down .social-link .social-icon {
+    margin: 0px 5px;
+    padding: 0px;
+    width: 20px;
+    height: 20px;
+   }
+  
+
+   .footer-down .social-link .social-icon .icon {
+    padding: 10px;
+   }
+   
+}
+
+@media (max-width : 600px) {
+     .footer .container .line
+    {
+        position: absolute;
+        bottom: 13%;
+    } 
+
+    .footer .container .footer-down{
+        display: block;
+        margin-top: 65%;
+        
+    }
+
+   
+    .footer .container .footer-down .social-link 
+    {
+        margin-left: 24%;
+        width: 70%;
+        margin-top: 10px;
+    } 
+
+    .footer .container .footer-down .social-link .social-icon {
+        padding: 0px;
+        margin: 2px;
+
+    }
+
+    .footer .container .news{
+        position: absolute ;
+        bottom: 22%;
+        left: 1%;
+       }
+
+       .footer .container .news .btn{
+        border: 1px solid #ffffff7b ;
+       }
+
+
+
+       }
+    
+
+
+
+/* .footer .container .row .footer-list li */
+
+
+
+
+/* End Footer */
+
+
+
+
+/* ————————————————————————————————————————————————————————————————————————————————————————————————————————————— */
+
+
